@@ -8,23 +8,39 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="hal1.css">
 
+<style>
+    h2 {
+        text-align: left;
+        margin-top: 50px;
+        font-weight: bold;
+
+    }
+    body {
+          background-color: #f3f8f4;
+    }
+
+    
+
+   
+</style>
+
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg navbar-custom">
   <div class="container">
     
-     <a class="navbar-brand" href="#">
-      <img src="huha.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-      MathPartner
+     <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="huha.png" alt="Logo" width="90" height="auto" class="d-inline-block align-text-top">
+      <span class="text-judul">MathPartner</span>
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse ms-4">
       <ul class="navbar-nav">
 
         <a class="nav-link active" href="#">Tentang</a>
@@ -50,6 +66,32 @@
     </div>
 
 </nav>
+
+<div class="container mt-5">
+  <div class="row align-items-center">
+    
+    <!-- Gambar -->
+    <div class="col-md-4">
+      <img src="huha.png" class="img-fluid" alt="logo">
+    </div>
+
+    <!-- Tulisan -->
+    <div class="col-md-8">
+      <h2>Tentang Kami</h2>
+      <br>
+      <p>
+        MathPartner adalah website bank soal matematika yang dirancang khusus untuk siswa Sekolah Menengah Atas (SMA). Platform ini menyediakan berbagai latihan soal yang disusun berdasarkan materi dan jenjang, sehingga memudahkan siswa dalam memahami konsep matematika secara bertahap.
+
+        MathPartner tidak hanya menyediakan soal latihan, tetapi juga dilengkapi dengan pembahasan yang jelas dan terstruktur. Setiap soal disertai penjelasan langkah demi langkah, sehingga siswa dapat memahami proses penyelesaian, bukan sekadar mengetahui jawaban akhir.
+
+        Melalui MathPartner, siswa dapat belajar secara mandiri dengan lebih efektif. Fitur penilaian otomatis membantu siswa mengetahui hasil pengerjaan secara langsung, sementara pembahasan yang tersedia membantu memperbaiki kesalahan dan memperdalam pemahaman materi.
+
+        Dengan adanya MathPartner, diharapkan siswa dapat mengubah pandangan bahwa matematika adalah mata pelajaran yang sulit menjadi lebih mudah dipahami. Website ini juga bertujuan untuk meningkatkan motivasi belajar melalui latihan yang konsisten, sistematis, dan didukung dengan pembahasan yang lengkap.
+      </p>
+    </div>
+
+  </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 
