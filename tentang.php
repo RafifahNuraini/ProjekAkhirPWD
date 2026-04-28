@@ -93,7 +93,7 @@
 
   </div>
 </div>
-<footer class="footer-style">
+<footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 ps-4">
@@ -115,7 +115,13 @@
                 </div>
                 
         </div>
+        <br>
+        <div class="bawah text-center">
+        <p>© 2026 PT MathPartner. All rights reserved.</p>
+        <p>Terms of Service | Policy | Service Level Agreement</p>
+    </div>
     </footer>
+    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 
