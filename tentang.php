@@ -43,6 +43,7 @@
     <div class="collapse navbar-collapse ms-4">
       <ul class="navbar-nav">
 
+         <a class="nav-link active" href="halaman1.html">Beranda</a>
         <a class="nav-link active" href="#">Tentang</a>
         <a class="nav-link" href="#">Keunggulan</a>
         <a class="nav-link" href="#">Testimoni</a>
@@ -92,6 +93,29 @@
 
   </div>
 </div>
+<footer class="footer-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ps-4">
+                    <div class="d-flex align-items-center">
+                     <img src="baru.png" alt="Logo" width="90" height="auto" class="me-2">
+                <h5 class="fw-bold m-0">MathPartner</h5>
+                </div>
+                <p class="m-0" style="font-size: medium;">Website latihan matematika untuk siswa SMA dengan soal terstruktur</p>
+                </div>
+                <div class="col-md-3">
+                <h5 style="font-weight: bold;">Ikuti</h5>
+                <p>Instagram: @mathpartner</p>
+                <p>Youtube: @mathpartner</p>
+                <p>Tiktok: @mathpartner</p>
+                </div>
+                <div class="col-md-3">
+                <h5 style="font-weight: bold;">Kontak kami</h5>
+                <p>Email: mathpartner@gmail.com </p>
+                </div>
+                
+        </div>
+    </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 
