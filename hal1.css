@@ -12,7 +12,7 @@ body {
   padding:0;
 }
 .footer {
-  background-color: #ede9df;
+background-color: #FFE066;
   margin-top: 100px;
   padding: 10px 0;
   color: #5c4a2d;
@@ -33,7 +33,7 @@ body {
 }
 
 .footer ul li:hover {
-  color: #d97742;
+  color: #d9c742;
 }
 
 .footer hr {
