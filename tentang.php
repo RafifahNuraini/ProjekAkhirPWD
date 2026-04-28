@@ -32,7 +32,7 @@
   <div class="container">
     
      <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="huha.png" alt="Logo" width="90" height="auto" class="d-inline-block align-text-top">
+      <img src="baru.png" alt="Logo" width="90" height="auto" class="d-inline-block align-text-top">
       <span class="text-judul">MathPartner</span>
     </a>
 
@@ -72,7 +72,7 @@
     
     <!-- Gambar -->
     <div class="col-md-4">
-      <img src="huha.png" class="img-fluid" alt="logo">
+      <img src="baru.png" class="img-fluid" alt="logo">
     </div>
 
     <!-- Tulisan -->
