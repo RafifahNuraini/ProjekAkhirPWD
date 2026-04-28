@@ -8,13 +8,37 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding:0;
 }
-.footer-style {
-  background-color: #FFE066;
-  padding: 7px 0;
-  margin-top: 300px; 
-  padding-left: 40px;
+.footer {
+  background-color: #ede9df;
+  margin-top: 100px;
+  padding: 10px 0;
+  color: #5c4a2d;
+}
 
+.footer .merk {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer ul li:hover {
+  color: #d97742;
+}
+
+.footer hr {
+  margin: 30px 0;
+  border-color: #bad522;
 }
 .btn {
     padding: 10px 28px;
