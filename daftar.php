@@ -58,8 +58,7 @@
     </div>
     <div class="card-body">
 <form action="prosesdaftar.php" method="POST">
-        <table>
-            <tbody class="form-table">
+        
             <label for="email">Email</label>
             <input type="text" class="form-control" id="email" name="email" placeholder="name@example.com">
             <br>
@@ -72,12 +71,13 @@
             <label for="password">Konfirmasi Password</label>
             <input type="password" class="form-control" id="konfirpwd" name="konfirpwd" placeholder="Konfirmasi Password">
             <br>
-            </tbody>
-        </table>
+            
                 <div style="text-align: end;">
                 <button type="submit" class="btn btn-info"> Tambahkan Pengguna</button>
-</div>
 </div>
 
 
 </form>
+</div>
+</div>
+</div>
