@@ -50,9 +50,11 @@
     </div>
 
 </nav>
-<div class="card">
+<div class="d-flex justify-content-center">
+  <div class="card p-3">
         <div class="card-header">
-         <div class="text-regist ">Registrasi Pengguna Baru</div>
+         <div class="text-center">Registrasi Pengguna Baru</div>
+         <p class="text-center">Selamat datang di MathPartner, buat akun sekarang untuk mengakses fitur-fitur menarik di MathPartner</p>
     </div>
     <div class="card-body">
 <form action="prosesdaftar.php" method="POST">
@@ -62,15 +64,20 @@
             <input type="text" class="form-control" id="email" name="email" placeholder="name@example.com">
             <br>
             <label for="usn">Nama</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="WAJIB DI ISI">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Nama">
             <br>
             <label for="password">Password</label>
-            <input type="password" class="form-control" id="pwd" name="pwd">
+            <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Password">
             <br>
-            <label for="jenis">Jenis Kelamin</label>
+            <label for="password">Konfirmasi Password</label>
+            <input type="password" class="form-control" id="konfirpwd" name="konfirpwd" placeholder="Konfirmasi Password">
             <br>
-            <input type="radio" name="JK" value="Laki-laki"> Laki-laki <input type="radio" name="JK" value="Perempuan" > Perempuan
-            <br>
+            </tbody>
+        </table>
+                <div style="text-align: end;">
+                <button type="submit" class="btn btn-info"> Tambahkan Pengguna</button>
+</div>
+</div>
 
 
 </form>
