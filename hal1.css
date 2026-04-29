@@ -72,14 +72,93 @@ background-color: #FFE066;
   font-weight: 700;
   color:#4f7726; 
 }
+.text-regist {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  color:#4f7726; 
+}
+.desk-regist {
+    text-align: center;
+    font-size: 15px;
+}
 .text-tabel {
     font-size: medium; 
     color:#4f7726;
 }
 .card{
     
-    width: 350px;
+    width: 500px;
     padding: 15px;
     margin-top: 50px;
+    margin-bottom: 80px;
 
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a {
+  color: #4f7726;
+}
+
+.signin a:hover {
+  text-decoration: underline #4f7726;
+
+}
+.flex label {
+  flex:1;
+}
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.form label {
+  position: relative;
+}
+
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  background-color:#4f7726;
+
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.juduldaftar {
+  font-weight: bold;
+  color: #4f7726;
+
+}
+

@@ -45,7 +45,7 @@
 
         <div class="d-flex ms-auto gap-3">
         <a href="daftar.php" class="btn btn-outline-success">Daftar</a>        
-        <button class="btn btn-outline-success"> Masuk </button>
+        <a href="masuk.php" class="btn btn-outline-success">Masuk</a>        
     </div>
     </div>
 
@@ -53,31 +53,84 @@
 <div class="d-flex justify-content-center">
   <div class="card p-3">
         <div class="card-header">
-         <div class="text-center">Registrasi Pengguna Baru</div>
-         <p class="text-center">Selamat datang di MathPartner, buat akun sekarang untuk mengakses fitur-fitur menarik di MathPartner</p>
+         <div class="text-regist">Registrasi Pengguna Baru</div>
+         <p class="desk-regist">Selamat datang di MathPartner, buat akun sekarang untuk mengakses fitur-fitur menarik di MathPartner</p>
     </div>
     <div class="card-body">
-<form action="prosesdaftar.php" method="POST">
+<form class="form" action="prosesdaftar.php" method="POST">
         
-            <label for="email">Email</label>
-            <input type="text" class="form-control" id="email" name="email" placeholder="name@example.com">
-            <br>
-            <label for="usn">Nama</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Nama">
-            <br>
-            <label for="password">Password</label>
-            <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Password">
-            <br>
-            <label for="password">Konfirmasi Password</label>
-            <input type="password" class="form-control" id="konfirpwd" name="konfirpwd" placeholder="Konfirmasi Password">
-            <br>
+        <div class="flex">
+
+        <label>
+            <span class="juduldaftar">Nama Lengkap</span>
+
+            <input required="" placeholder="First Name" type="text" class="form-control">
+        </label>
+        <label>
+          <br>
+            <input required="" placeholder="Last name" type="text" class="form-control">
+        </label>
+    </div>  
             
-                <div style="text-align: end;">
-                <button type="submit" class="btn btn-info"> Tambahkan Pengguna</button>
-</div>
-
-
+    <label>
+        <span class="juduldaftar">Email</span>
+        <input required="" placeholder="Email" type="email"  class="form-control">
+    </label> 
+        
+    <label>
+        <span class="juduldaftar">Password</span>
+        <input required="" placeholder="Password" type="password"  class="form-control">
+    </label>
+    <label>
+        <span class="juduldaftar">Confirm password</span>
+        <input required="" placeholder="Konfirmasi Password" type="password"  class="form-control">
+    </label>
+    <br>
+    <button class="submit">Tambahkan pengguna baru</button>
+    <p class="signin">Sudah mempunyai akun ? <a href="masuk.php">Masuk</a> </p>
 </form>
 </div>
 </div>
 </div>
+<footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ps-4">
+                    <div class="d-flex align-items-center">
+                     <img src="baru.png" alt="Logo" width="90" height="auto" class="me-2">
+                <h4 class="fw-bold m-0">MathPartner</h4>
+                </div>
+                <p class="m-0" style="font-size: medium;">Website latihan matematika untuk siswa SMA dengan soal terstruktur</p>
+                </div>
+                <div class="col-md-3">
+                <h4 class="fw-bold m-0 mt-3">Kontak Kami</h4>
+                        <ul class="list">
+                        <li class="text-tabel">Email: mathpartner@gmail.com</li>
+                        <li class="text-tabel">Telepon: 081234567890</li>
+
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                <h4 class="fw-bold m-0 mt-3">Ikuti Sosial Media</h4>
+                        <ul class="list">
+                             <li class="text-tabel">Instagram: @mathpartner</li>
+                             <li class="text-tabel">Youtube: @mathpartner</li>
+                             <li class="text-tabel">Tiktok: @mathpartner</li>
+                        </ul>
+                </div>
+                
+                <hr>
+        </div>
+        <br>
+        </footer>
+        <div class="footer-bawah">
+        <p>© 2026 PT MathPartner. All rights reserved.</p>
+        <p>Terms of Service | Policy | Service Level Agreement</p>
+    </div>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
