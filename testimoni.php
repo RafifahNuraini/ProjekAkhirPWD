@@ -28,8 +28,8 @@
       <ul class="navbar-nav">
 
         <a style="color: #4f7726;" class="nav-link active" href="tentang.html">Tentang</a>
-        <a style="color: #4f7726;" class="nav-link" href="keunggulan.html">Keunggulan</a>
-        <a style="color: #4f7726;" class="nav-link" href="testimoni.php">Testimoni</a>
+        <a style="color: #4f7726;" class="nav-link" href="#">Keunggulan</a>
+        <a style="color: #4f7726;" class="nav-link" href="#">Testimoni</a>
         <li class="nav-item dropdown list-unstyled">
           <a style="color: #4f7726;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
             Kelas
@@ -50,28 +50,28 @@
     </div>
 
 </nav>
-<br>
-<section class="isi">
-    <div class="container mt-5 mb-5 pb-5">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <h1 class="judul">Belajar Matematika <br>yang <span>seseru itu</span></h1>
-                <p class="isi-judul">
-                      Bank soal matematika yang praktis dan super lengkap buat bantu kamu
-                      untuk mempersiapkan UTBK-SNBT dan Ujian Mandiri
-                </p>
-                <button class="btn btn-success hero-btn">
-                 Mulai Belajar
-                </button>
-                 </div>
-                 <div class="logo-beranda">
-                <img src="baru.png" class="hero-img">
-                </div>
-           
-        </div>
-    </div>
 
-</section>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
 <footer class="footer">
         <div class="container">
             <div class="row">
